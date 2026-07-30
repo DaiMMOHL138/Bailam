@@ -11,10 +11,10 @@ int main(){
 
 	for (int i = 0;i <= bangso.size();i++){
 		if (s[0] == bangso[i]){
-			cout << 1 << "\n" << s.size() << "\n";
+			cout << 0 << " " << s.size() << "\n";
 			return 0;
 		}
 	}
-	cout << 0 << "\n" << s.size() << "\n";
+	cout << 1 << " " << s.size() << "\n";
 	return 0;
 }
